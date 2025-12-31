@@ -1,6 +1,14 @@
-# node-board
-Manages IoT devices at the edge. Reads sensor data, executes relay commands, and communicates with the master board in a distributed IoT setup.
+<div>
+  <a href="#" target="_blank"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="NuGet" /></a>
+  <a href="#" target="_blank"><img src="https://badgen.net/badge/status/development/yellow"/></a>
+</div>
+ <div align="center">
+     <h1>🔌<br/>Edge Node IoT Project</h1>
+ </div>
 
+## Overview
+This repository implements the **Node layer** of the TechOnIt ecosystem.  
+Nodes (ESP32/Arduino) connect to the **Controller (Raspberry Pi)** and relay sensor data and actuator commands.
 
 ## Features
 - Reads data from sensors (temperature, humidity, light, etc.)
